@@ -77,9 +77,11 @@ function HeroSection() {
             onMouseEnter={() => setShowProfileGif(true)}
             onMouseLeave={() => setShowProfileGif(false)}
           >
-            <div className="profile-placeholder">
-              <span>S</span>
-            </div>
+            <img 
+              src="/public/1.jpg" 
+              alt="Sasha Profile" 
+              className="profile-image"
+            />
           </div>
         </div>
 
