@@ -2,16 +2,19 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure all content is above the background */
+.App > * {
+  position: relative;
+  z-index: 10;
 }
 
 .App h1 {
