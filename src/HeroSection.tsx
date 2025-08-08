@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -72,7 +72,11 @@ function HeroSection() {
         </div>
 
         <div className="hero-image" data-aos="fade">
-          <div className="profile-picture">
+          <div 
+            className="profile-picture"
+            onMouseEnter={() => setShowProfileGif(true)}
+            onMouseLeave={() => setShowProfileGif(false)}
+          >
             <div className="profile-placeholder">
               <span>S</span>
             </div>
