@@ -18,11 +18,11 @@
 }
 
 .App h1 {
-  color: #333;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 .App p {
-  color: #666;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.1rem;
 }

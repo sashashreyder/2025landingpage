@@ -14,9 +14,24 @@
 }
 
 .contact-heading {
-    font-size: 40px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
     margin-bottom: 50px;
-    color: #dec094;
+    position: relative;
+}
+
+.contact-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #ff6b6b, #feca57);
+    border-radius: 2px;
 }
 
 .contact-list {
@@ -43,13 +58,47 @@
     background: rgba(255, 255, 255, 0.2);
 }
 
+.contact-item.download-cv {
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+}
+
+.contact-item.download-cv:hover {
+    background: linear-gradient(135deg, #feca57 0%, #ff6b6b 100%);
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 35px rgba(255, 107, 107, 0.4);
+}
+
 .contact-icon {
     font-size: 24px;
-    color: #dec094;
+    color: #ff6b6b;
+    transition: all 0.3s ease;
+}
+
+.contact-item.download-cv .contact-icon {
+    color: #ffffff;
+}
+
+.contact-item:hover .contact-icon {
+    color: #feca57;
+    transform: scale(1.1);
+}
+
+.contact-item.download-cv:hover .contact-icon {
+    color: #ffffff;
 }
 
 .contact-text {
-    font-size: 19.2px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.contact-item.download-cv .contact-text {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .contact-link {
@@ -61,7 +110,7 @@
 }
 
 .contact-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .icon-svg {
@@ -70,11 +119,11 @@
     margin-right: 10px;
     filter: brightness(0) invert(1); 
     transition: transform 0.3s ease;
-  }
-  
+}
+
 @media (max-width: 600px) {
     .contact-heading {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .contact-item {
@@ -89,12 +138,16 @@
     }
 
     .contact-text {
-        font-size: 18px;
+        font-size: 1rem;
+    }
+
+    .contact-item.download-cv .contact-text {
+        font-size: 1.1rem;
     }
 
     #contact-section {
         display: flex;
         justify-content: center;
-}
+    }
 }
 
