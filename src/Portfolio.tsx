@@ -38,6 +38,33 @@ function Portfolio() {
                         <img src="https://i.postimg.cc/zv6WgH6c/rocket.jpg" alt="Rocket Launcher" />
                         <span className="portfolio-item-title">Launch The Rocket</span>
                     </a>
+                    <a
+                        href="#"
+                        className="portfolio-item"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <img src="https://i.postimg.cc/3J8L8K9Q/waterjet.jpg" alt="WaterJetCut Project" />
+                        <span className="portfolio-item-title">WaterJetCut</span>
+                    </a>
+                    <a
+                        href="#"
+                        className="portfolio-item"
+                        data-aos="fade-up"
+                        data-aos-delay="150"
+                    >
+                        <img src="https://i.postimg.cc/9FQZ8K9Q/moodle.jpg" alt="Moodle Education Project" />
+                        <span className="portfolio-item-title">Moodle Education</span>
+                    </a>
+                    <a
+                        href="#"
+                        className="portfolio-item"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        <img src="https://i.postimg.cc/7L8K9Q3J/office.jpg" alt="Interactive Office Project" />
+                        <span className="portfolio-item-title">Interactive Office</span>
+                    </a>
                 </div>
             </div>
         </div>
