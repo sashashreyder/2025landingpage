@@ -63,7 +63,7 @@ function Portfolio() {
                         data-aos-delay="200"
                     >
                         <img src="https://i.postimg.cc/7L8K9Q3J/office.jpg" alt="Interactive Office Project" />
-                        <span className="portfolio-item-title">Interactive Office</span>
+                        <span className="portfolio-item-title">Interactive Office (coming soon)</span>
                     </a>
                 </div>
             </div>
