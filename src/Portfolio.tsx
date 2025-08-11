@@ -35,7 +35,7 @@ function Portfolio() {
                         data-aos="fade-up"
                         data-aos-delay="50"
                     >
-                        <img src="public/SCR-20250811-nqtj.png" alt="Rocket Launcher" />
+                        <img src="SCR-20250811-nqtj.png" alt="Rocket Launcher" />
                         <span className="portfolio-item-title">Launch The Rocket</span>
                     </a>
                     <a
@@ -44,7 +44,7 @@ function Portfolio() {
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        <img src="public/SCR-20250811-nrkp.jpeg" alt="WaterJetCut Project (in" />
+                        <img src="SCR-20250811-nrkp.jpeg" alt="WaterJetCut Project (in" />
                         <span className="portfolio-item-title">WaterJetCut (publication process)</span>
                     </a>
                     <a
@@ -53,7 +53,7 @@ function Portfolio() {
                         data-aos="fade-up"
                         data-aos-delay="150"
                     >
-                        <img src="public/SCR-20250811-numv.jpeg" alt="Moodle Education Project" />
+                        <img src="SCR-20250811-numv.jpeg" alt="Moodle Education Project" />
                         <span className="portfolio-item-title">Moodle Education 35+ English Exercises in Vanilla JS (iframe)</span>
                     </a>
                     <a
