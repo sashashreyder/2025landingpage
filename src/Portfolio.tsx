@@ -35,26 +35,26 @@ function Portfolio() {
                         data-aos="fade-up"
                         data-aos-delay="50"
                     >
-                        <img src="https://i.postimg.cc/zv6WgH6c/rocket.jpg" alt="Rocket Launcher" />
+                        <img src="public/SCR-20250811-nqtj.png" alt="Rocket Launcher" />
                         <span className="portfolio-item-title">Launch The Rocket</span>
                     </a>
                     <a
-                        href="#"
+                        href="https://waterjetcut.netlify.app/"
                         className="portfolio-item"
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        <img src="https://i.postimg.cc/3J8L8K9Q/waterjet.jpg" alt="WaterJetCut Project" />
-                        <span className="portfolio-item-title">WaterJetCut</span>
+                        <img src="public/SCR-20250811-nrkp.jpeg" alt="WaterJetCut Project (in" />
+                        <span className="portfolio-item-title">WaterJetCut (publication process)</span>
                     </a>
                     <a
-                        href="#"
+                        href="https://c1gap-fill-innovation.netlify.app/"
                         className="portfolio-item"
                         data-aos="fade-up"
                         data-aos-delay="150"
                     >
-                        <img src="https://i.postimg.cc/9FQZ8K9Q/moodle.jpg" alt="Moodle Education Project" />
-                        <span className="portfolio-item-title">Moodle Education</span>
+                        <img src="public/SCR-20250811-numv.jpeg" alt="Moodle Education Project" />
+                        <span className="portfolio-item-title">Moodle Education 35+ English Exercises in Vanilla JS (iframe)</span>
                     </a>
                     <a
                         href="#"

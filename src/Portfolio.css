@@ -29,6 +29,10 @@
     position: relative;
 }
 
+.portfolio-item-title {
+    text-align: center;
+}
+
 .portfolio-title::after {
     content: '';
     position: absolute;
