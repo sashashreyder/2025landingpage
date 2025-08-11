@@ -325,6 +325,11 @@
     height: 220px;
   }
 
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+
   .greeting-gif {
     top: 10px;
     left: 80%;

@@ -108,20 +108,20 @@
 }
 
 .expand-toggle-button {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    border: none;
     color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding: 0;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+    backdrop-filter: none;
 }
 
 .expand-toggle-button:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    background: transparent;
+    border: none;
+    transform: scale(1.1);
 }
 
 #section-start,
