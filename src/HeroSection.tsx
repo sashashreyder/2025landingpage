@@ -84,7 +84,7 @@ function HeroSection() {
             onMouseLeave={() => setShowProfileGif(false)}
           >
             <img 
-              src="/public/1.jpg" 
+              src="/1.jpg" 
               alt="Sasha Profile" 
               className="profile-image"
             />
