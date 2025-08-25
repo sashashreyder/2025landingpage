@@ -5,11 +5,12 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+}
+
+html {
   background: linear-gradient(135deg, #4a5568 0%, #2d3748 50%, #1a202c 100%);
 }
 
@@ -25,19 +26,16 @@ html, body {
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
   position: relative;
+  background: transparent;
 }
 
 body::before {
   content: '';
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background:
     radial-gradient(circle at 20% 80%, rgba(0, 0, 0, 0.4) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 0, 0, 0.4) 0%, transparent 50%),
@@ -52,10 +50,7 @@ body::before {
 body::after {
   content: '';
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: 
     radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.3), transparent),
     radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.2), transparent),
@@ -67,8 +62,8 @@ body::after {
     radial-gradient(1px 1px at 280px 20px, rgba(255, 255, 255, 0.4), transparent),
     radial-gradient(2px 2px at 320px 50px, rgba(255, 255, 255, 0.3), transparent),
     radial-gradient(1px 1px at 360px 80px, rgba(255, 255, 255, 0.2), transparent);
-  background-repeat: repeat, repeat, repeat, repeat, repeat, repeat, repeat, repeat, repeat, repeat;
-  background-size: 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px, 200px 100px;
+  background-repeat: repeat;
+  background-size: 200px 100px;
   opacity: 0.4;
   animation: particleFloat 20s linear infinite;
   pointer-events: none;
@@ -88,7 +83,7 @@ body::after {
 
 @keyframes particleFloat {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   100% {
     transform: translateY(-100px);
@@ -101,8 +96,8 @@ h1 {
   color: #ffffff;
 }
 
-/* Ensure all content is above the background */
 #root {
   position: relative;
   z-index: 10;
 }
+
