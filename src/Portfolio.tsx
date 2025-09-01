@@ -57,13 +57,13 @@ function Portfolio() {
                         <span className="portfolio-item-title">Moodle Education 35+ English Exercises in Vanilla JS (iframe)</span>
                     </a>
                     <a
-                        href="#"
+                        href="https://interactiveofficea1.netlify.app/"
                         className="portfolio-item"
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-                        <img src="https://i.postimg.cc/7L8K9Q3J/office.jpg" alt="Interactive Office Project" />
-                        <span className="portfolio-item-title">Interactive Office (coming soon)</span>
+                        <img src="dist/interactive-office.jpeg" alt="Interactive Office Project" />
+                        <span className="portfolio-item-title">Interactive Office</span>
                     </a>
                 </div>
             </div>
